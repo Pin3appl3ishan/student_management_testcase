@@ -64,6 +64,7 @@ class _RegisterViewState extends State<RegisterView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: const Text('Register Student')),
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
